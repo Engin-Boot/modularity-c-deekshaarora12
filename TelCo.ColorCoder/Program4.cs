@@ -1,3 +1,7 @@
+using System;
+using System.Diagnostics;
+using System.Drawing;
+
 namespace TelCo.ColorCoder
 {
 class Program4
@@ -32,3 +36,5 @@ private static void Main(string[] args)
             Console.WriteLine("[In]Colors: {0}, [Out] PairNumber: {1}", testPair2, pairNumber);
             Debug.Assert(pairNumber == 6);
         }
+    }
+}
