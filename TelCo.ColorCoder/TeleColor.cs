@@ -2,6 +2,7 @@
 using System.Diagnostics;
 using System.Drawing;
 using System.Threading.Tasks;
+using System.Collections.Generic; 
 
 namespace TelCo.ColorCoder
 {
