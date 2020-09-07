@@ -9,7 +9,7 @@ namespace TelCo.ColorCoder
 {
 public class PairToColor: ColorToPair
 {
-private static int GetPairNumberFromColor(ColorPair pair)
+internal static int GetPairNumberFromColor(ColorPair pair)
         {
             // Find the major color in the array and get the index
             int majorIndex = -1;
