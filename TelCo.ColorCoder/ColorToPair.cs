@@ -6,7 +6,7 @@ using TelCo.ColorCoder;
 
 namespace TelCo.ColorCoder
 {
-class TeleFunction: TeleColor
+class ColorToPair: TeleColor
 {
 private static ColorPair GetColorFromPairNumber(int pairNumber)
         {
