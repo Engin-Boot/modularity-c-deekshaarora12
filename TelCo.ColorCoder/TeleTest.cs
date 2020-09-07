@@ -1,6 +1,10 @@
 using System;
 using System.Diagnostics;
 using System.Drawing;
+using System.Threading.Tasks;
+using TelCo.ColorCoder;
+using System.Collections.Generic; 
+
 
 namespace TelCo.ColorCoder
 {
