@@ -12,6 +12,10 @@ class TeleTest: ManualPrint
 {
 private static void Main(string[] args)
         {
+         
+            string printManual = GetManual();
+            Console.WriteLine(printManual);
+            
             int pairNumber = 4;
             ColorPair testPair1 = ColorToPair.GetColorFromPairNumber(pairNumber);
             Console.WriteLine("[In]Pair Number: {0},[Out] Colors: {1}\n", pairNumber, testPair1);
