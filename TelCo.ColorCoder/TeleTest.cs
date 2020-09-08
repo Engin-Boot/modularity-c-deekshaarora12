@@ -8,7 +8,7 @@ using System.Collections.Generic;
 
 namespace TelCo.ColorCoder
 {
-class TeleTest: PairToColor
+class TeleTest: ManualPrint
 {
 private static void Main(string[] args)
         {
