@@ -26,7 +26,7 @@ internal static string GetManual()
               
               string pairNumbertoString = pairNumber.ToString();
               
-              printManual = printManual + pairNumbertoString.PadRight(2) + majCol.PadRight(2) + minCol..PadRight(2) + \n;
+              printManual = printManual + pairNumbertoString + "--" + majCol + "--" + minCol + "\n";
               
               pairNumber = pairNumber + 1;
             }
