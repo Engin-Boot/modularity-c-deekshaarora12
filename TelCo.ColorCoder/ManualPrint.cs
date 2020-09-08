@@ -8,7 +8,7 @@ namespace TelCo.ColorCoder
 {
 public class ManualPrint: PairToColor
 {
-internal static int GetManual()
+internal static string GetManual()
         {
             string finalManual = "";
             
@@ -32,7 +32,7 @@ internal static int GetManual()
             }
             finalManual = finalManual + printManual;
           }
-          Console.writeLine(finalManual);
+          return finalManual;
         }
      }
   }
