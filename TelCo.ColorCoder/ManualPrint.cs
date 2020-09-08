@@ -21,8 +21,8 @@ internal static string GetManual()
              
             for(int j = 0; j < colorMapMinor.Length; j++)
              {
-              string majCol=  colorMapMajor[i];
-              string minCol = colorMapMinor[j];
+              string majCol=  (string)Color.colorMapMajor[i];
+              string minCol = (string)Color.olorMapMinor[j];
               
               string pairNumbertoString = pairNumber.ToString();
               
